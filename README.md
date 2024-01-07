@@ -5,6 +5,8 @@ Dev OPS course from YT veeramala, link: https://www.youtube.com/watch?v=Ou9j73aW
 ### Create EC2 and connect
 create the instance and then create key pair and download it
 
+if key pair doesn't work then `chmod 400 <file.pem>`
+
 **For windows use Mobaxterm for terminal**
 
 create multiple instances of aws machines with Terraform or AWS CDK(for only AWS applications)
@@ -23,5 +25,13 @@ i:   write inside the file
 `nproc`:   shows number of cpu cores
 `df`:   show storage information
 `top`:   monitor everything
+`more`: used in pipeline to open a big output in terminal
+`set -x`: for a script to run in debug mode
 
 ## Day 7
+
+aws_resource_usage.sh: aws resourse usage monitor script
+
+## Day 8
+
+create a script to list the users that collaborate in a github repo
