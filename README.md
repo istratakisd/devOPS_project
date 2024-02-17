@@ -5,15 +5,10 @@ Dev OPS course from YT veeramala, link: https://www.youtube.com/watch?v=Ou9j73aW
 ### Create AWS EC2 instence
 
     1. Choose Region
-
     2. EC2 Global View
-
     3. Instances
-
     4. Launch instance
-
     5. Choose the instance type (free)
-
     6. Create Key pair
 
         a. Name
