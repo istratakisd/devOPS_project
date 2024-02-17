@@ -2,14 +2,37 @@
 Dev OPS course from YT veeramala, link: https://www.youtube.com/watch?v=Ou9j73aWgyE&amp;list=RDCMUCnnQ3ybuyFdzvgv2Ky5jnAA&amp;start_radio=1&amp;rv=Ou9j73aWgyE&amp;t=1007
 
 ## Day 4
-### Create EC2 and connect
-create the instance and then create key pair and download it
+### Create AWS EC2 instence
 
-if key pair doesn't work then `chmod 400 <file.pem>`
+    1. Choose Region
 
-**For windows use Mobaxterm for terminal**
+    2. EC2 Global View
 
-create multiple instances of aws machines with Terraform or AWS CDK(for only AWS applications)
+    3. Instances
+
+    4. Launch instance
+
+    5. Choose the instance type (free)
+
+    6. Create Key pair
+
+        a. Name
+
+        b. RSA
+
+        c. .pem
+
+        d. Create Key pair
+
+        e. Save it somewhere for login
+
+    7. Check if public IP is enabled
+
+    8. Launch instance
+
+### Create Azure instance
+
+    Create a resource.
 
 ## Day 5
 install aws cli and control things through that
