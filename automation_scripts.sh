@@ -6,7 +6,7 @@ if [ $# -eq 0 ]; then
 else
     if [ $1 = "aws" ]; then
         echo -e "=================\nConnecting to AWS\n================="
-        ssh -i ~/Documents/aws/key_west_3.pem ubuntu@15.188.64.76
+        ssh -i ~/Documents/aws/key_west_3.pem ubuntu@15.188.3.159
     fi
 fi
 # aws devOPS-test connect
